@@ -13,4 +13,6 @@ Use only the first two arguments to `add_stretch`. Name your stretch, and put in
 Use all five arguments. Name your stretch and specify the number of repetitions, then set `enable_timer` to true to denote a timed rep. `rep_time_sec` is the number of seconds that each rep should be held. `prep_time_sec` is the delay before the rep timer starts, allowing time to change position in between hitting the button and starting the stretch.
 
 # Disclaimer
-I don't own the sound files. Apple does. DMCA me, I dare you.
+Not medical advice, not FDA approved, etc. etc. etc. 
+
+I don't own the sound files. Apple does. DMCA me, Tim, I dare you.
