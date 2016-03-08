@@ -1,0 +1,53 @@
+* {
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+.stretch_li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  padding: 1em;
+}
+
+.stretch_repcount, .stretch_time, .stretch_start {
+  -webkit-box-flex: 1 0 auto;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 auto;
+}
+
+.stretch_name {
+  -webkit-box-flex: 2 0 auto;
+  -webkit-flex: 2 0 auto;
+  -ms-flex: 2 0 auto;
+  flex: 2 0 auto;
+}
+
+.stretch_repcount[completed='true'] {
+  color: lightgreen;
+}
+
+.stretch_time[state='prep'] {
+  color: orange;
+}
+
+.stretch_time[state='rep'] {
+  color: lightgreen;
+}
