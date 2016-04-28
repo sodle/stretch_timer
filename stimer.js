@@ -179,6 +179,6 @@ function add_stretch(name, reps, enable_timer, rep_time_sec, prep_time_sec) {
 
 // TODO: Replace these with your real exercises
 add_stretch('Hamstring Stretch with Towel', 5, true, 25, 3);
-add_stretch('Knee Fall Out Stretch', 20, true, 5, 3);
+add_stretch('Knee Fall Out Stretch', 20);
 add_stretch('Standing Hip Adductor Stretch', 10, true, 10, 3);
 add_stretch('Hip Flexor Stretch Standing Foot on Chair', 10, true, 10, 3);
